@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context="sg.edu.nus.ustudy.Func4"
+    android:background="@drawable/bg">
+
+    <Button
+        android:id="@+id/battery_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dip"
+        android:text="battery"
+        android:textSize="16.0dip"
+        android:background="@drawable/button_style"
+        android:onClick="Battery"/>
+    <Button
+        android:id="@+id/exit_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dip"
+        android:text="exit"
+        android:textSize="16.0dip"
+        android:background="@drawable/button_style"
+        android:onClick="Exit"
+        android:layout_below="@id/battery_button"/>
+
+</RelativeLayout>

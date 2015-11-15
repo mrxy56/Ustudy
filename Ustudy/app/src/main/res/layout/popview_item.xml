@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ccffff" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="200dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:paddingRight="70dp"
+                android:text="School of Computing"
+                android:background="@drawable/button_style"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="200dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/button2"
+                android:paddingRight="70dp"
+                android:text="U Town"
+                android:background="@drawable/button_style"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="200dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/button3"
+                android:paddingRight="70dp"
+                android:text="Central Library"
+                android:background="@drawable/button_style"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="200dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/button4"
+                android:paddingRight="70dp"
+                android:text="Business School"
+                android:background="@drawable/button_style"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="200dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/button5"
+                android:paddingRight="70dp"
+                android:text="Centre for Quantum Technologies"
+                android:background="@drawable/button_style"
+                android:layout_marginBottom="10dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
